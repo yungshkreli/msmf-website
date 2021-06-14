@@ -4,14 +4,22 @@
          url('css/fonts/blenderpro-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
+/* Formats the H1 text group */
 h1 {
     color:#FFFFFF !important;
     font-family:blender_probook !important;
     }
 
+/* Formats the H2 text group */
+h2 {
+    color:#FFFFFF !important;
+    font-family:blender_probook !important;
+    }
+
+/* Sets the background of the page. In the future, it should be more data efficient to get the actual hex code for the background instead of having the image, unless
+we want to change the look by changing the background */
 body {	
     background-image: url('grunge_patterns.jpg.png');
 	background-attachment: fixed;
