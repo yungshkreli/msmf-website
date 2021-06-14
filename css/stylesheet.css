@@ -21,7 +21,5 @@ h2 {
 /* Sets the background of the page. In the future, it should be more data efficient to get the actual hex code for the background instead of having the image, unless
 we want to change the look by changing the background */
 body {	
-    background-image: url('background.png');
-	background-attachment: fixed;
-	color: #333;	
+	background-color: #202b33   		
 	}
