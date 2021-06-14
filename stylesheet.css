@@ -8,6 +8,6 @@
 }
 
 h1 {
-    color:#FFFFFF;
-    font-family:blender_probook;
+    color:#FFFFFF !important;
+    font-family:blender_probook !important;
 }
