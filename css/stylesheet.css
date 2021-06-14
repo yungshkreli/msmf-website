@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'blender_probook';
-    src: url('css/fonts/blenderpro-book-webfont.woff2') format('woff2'),
-         url('css/fonts/blenderpro-book-webfont.woff') format('woff');
+    src: url('fonts/blenderpro-book-webfont.woff2') format('woff2'),
+         url('fonts/blenderpro-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
