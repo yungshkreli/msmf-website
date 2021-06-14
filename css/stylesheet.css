@@ -18,8 +18,7 @@ h2 {
     font-family:blender_probook !important;
     }
 
-/* Sets the background of the page. In the future, it should be more data efficient to get the actual hex code for the background instead of having the image, unless
-we want to change the look by changing the background */
+/* Sets the background of the page */
 body {	
 	background-color: #202b33   		
 	}
