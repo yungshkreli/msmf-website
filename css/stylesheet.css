@@ -21,8 +21,9 @@ h2 {
 /* Formats the table group */
 
 table, th, td {
-	border: 1px solid #FFFFFF;
+	border: 1px solid white;
 	font-family:blender_probook;
+  	border-collapse: collapse;
 	color:#FFFFFF
 }
 
