@@ -18,6 +18,14 @@ h2 {
     font-family:blender_probook !important;
     }
 
+/* Formats the table group */
+
+table, th, td {
+	border: 1px solid #FFFFFF;
+	font-family:blender_probook;
+	color:#FFFFFF
+}
+
 /* Sets the background of the page */
 body {	
 	background-color: #202b33   		
