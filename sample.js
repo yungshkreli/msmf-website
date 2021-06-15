@@ -1,5 +1,5 @@
 //  The path where we can find the JSON file.
-const PATH_CARS = 'http://path/to/cars.json';
+const PATH_CARS = 'positions.json';
 //  Same thing, but using the fetch API for browsers that support it.
 //  https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 //  The fetch API uses promises instead of callbacks to handle the results.
