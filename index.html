@@ -13,71 +13,19 @@
 <!-- welcome message for the page -->
 <h1> Welcome to the MSMF </h1>
 
-<!-- side by side tables for current holdings -->
-<table style ="float:left;display:inline-block";>
-	<caption> Eirik's Positions </caption>
-	<!-- left table headers -->
-	<tr>
-		<th> Ticker </th>
-        <th> Equity </th>
-        <th> Unrealized Return </th>
-        <th> CAGR </th>
-    </tr> 
-
-    <tr>
-        <td> JEPI </td>
-        <td style="text-align:center"> $3904 </td>
-        <td style="text-align:center"> $11.58 </td>
-        <td style="text-align:center"> 2% </td>
-    </tr>
-    
-    <tr>
-        <td> INTC </td>
-        <td style="text-align:center"> $2612 </td>
-        <td style="text-align:center"> -$62 </td>
-        <td style="text-align:center"> -6% </td>
-    </tr>
-    
-    <tr>
-        <td> TER </td>
-        <td style="text-align:center"> $2328 </td>
-        <td style="text-align:center"> $481 </td>
-        <td style="text-align:center"> 36% </td>
-    </tr>
-    
-    <tr>
-        <td> PLTR </td>
-        <td style="text-align:center"> $2465 </td>
-        <td style="text-align:center"> $1291 </td>
-        <td style="text-align:center"> 228% </td>
-    </tr>
-    
-    <tr>
-        <td> Crypto </td>
-        <td style="text-align:center"> $1267 </td>
-        <td style="text-align:center"> $800 </td>
-        <td style="text-align:center"> 255% </td>
-    </tr>
-    
-     <tr>
-        <td> STZ </td>
-        <td style="text-align:center"> $1190 </td>
-        <td style="text-align:center"> $0 </td>
-        <td style="text-align:center"> 0% </td>
-    </tr>   
-    
-</table>
-<table style ="float:left;display:inline-block";>
-        <tr>
-          <th> E </th>
-          <th> F </th>
-        </tr> 
-
-        <tr>
-          <td> G </td>
-          <td> H </td>
-        </tr>
-</table>	    
+<!-- try to collect table fields from csv in root folder -->
+<?php
+echo "<html><body><table>\n\n";
+$f = fopen("so-csv.csv", "r");
+while (($line = fgetcsv($f)) !== false) {
+        echo "<tr>";
+        foreach ($line as $cell) {
+                echo "<td>" . htmlspecialchars($cell) . "</td>";
+        }
+        echo "</tr>\n";
+}
+fclose($f);
+echo "\n</table></body></html>";
 	    
 </head>
 </html>
