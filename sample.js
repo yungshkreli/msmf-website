@@ -1,3 +1,6 @@
+//  FAKE FETCH, DO NOT USE IN THE REAL CODE
+const fetch = url => Promise.resolve({json: () => JSON.parse('[{"availability":25,"brand":"bmw","code":"1000","id":1,"model":"m1"},{"availability":null,"brand":"bmw","code":"1001","id":2,"model":"m3"},{"availability":10,"brand":"bmw","code":"1002","id":3,"model":"m5"},{"availability":7,"brand":"ford","code":"1003","id":4,"model":"fiesta"},{"availability":14,"brand":"ford","code":"1004","id":5,"model":"mondeo"},{"availability":null,"brand":"ford","code":"1005","id":6,"model":"escort"}]')});
+
 //  The path where we can find the JSON file.
 const PATH_CARS = 'positions.json';
 //  Same thing, but using the fetch API for browsers that support it.
