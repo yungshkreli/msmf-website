@@ -11,12 +11,16 @@
 	<h1> Welcome to the MSMF (with JS table) </h1>
 </head>	
 <body>
-	<script>
-		var csvtotable = new CsvToTable({
-			csvFile: 'inputs/eirik_holdings.csv' 
-		});
-		csvtotable.run();
-	</script>
-	
+	<div class= "eirik_hold">
+		<!-- header -->
+		<h2> Eirik's Holdings </h2>
+		<!-- table from csv file -->
+		<script>
+			var csvtotable = new CsvToTable({
+				csvFile: 'inputs/eirik_holdings.csv' 
+			});
+			csvtotable.run();
+		</script>
+	</div>
 </body>
 </html>
