@@ -1,12 +1,12 @@
 Ticker,Strategy,Total Cost,Market Value,Holding Period,Total Change,CAGR
-JEPI,Long Equity,"kr 32,384.10","kr 32,480.45",57,0.30%,1.92%
-INTC,Long Equity,"kr 22,245.70","kr 21,730.29",148,-2.32%,-5.62%
-TER,Long Equity,"kr 15,365.21","kr 19,370.01",279,26.06%,35.39%
-PLTR,Long Equity,"kr 9,766.00","kr 20,508.80",229,110.00%,226.28%
-BTC,Long Equity,"kr 3,923.00","kr 10,540.06",286,168.67%,253.01%
-STZ,Long Equity,"kr 9,904.75","kr 9,902.05",91,-0.03%,-0.11%
-BUG,Long Equity,"kr 9,556.56","kr 9,504.77",163,-0.54%,-1.21%
-RTX,Long Equity,"kr 5,925.80","kr 7,562.96",439,27.63%,22.49%
-EQNR,Long Equity,"kr 4,024.00","kr 5,904.85",408,46.74%,40.93%
-NEM,Long Equity,"kr 5,060.76","kr 4,768.40",316,-5.78%,-6.64%
-BRK.B,Long Equity,"kr 3,731.74","kr 4,774.85",408,27.95%,24.67%
+JEPI,Long Equity, kr  32 384, kr  32 480,57,0.30%,1.92%
+INTC,Long Equity, kr  22 246, kr  21 730,148,-2.32%,-5.62%
+TER,Long Equity, kr  15 365, kr  19 370,279,26.06%,35.39%
+PLTR,Long Equity, kr  9 766, kr  20 509,229,110.00%,226.28%
+BTC,Long Equity, kr  3 923, kr  10 540,286,168.67%,253.01%
+STZ,Long Equity, kr  9 905, kr  9 902,91,-0.03%,-0.11%
+BUG,Long Equity, kr  9 557, kr  9 505,163,-0.54%,-1.21%
+RTX,Long Equity, kr  5 926, kr  7 563,439,27.63%,22.49%
+EQNR,Long Equity, kr  4 024, kr  5 905,408,46.74%,40.93%
+NEM,Long Equity, kr  5 061, kr  4 768,316,-5.78%,-6.64%
+BRK.B,Long Equity, kr  3 732, kr  4 775,408,27.95%,24.67%
