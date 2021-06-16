@@ -95,6 +95,7 @@
 	        }
 	        table += '</tbody>';
 	        table += '</table>';
+		table.innerHTML = "<b>My table caption</b>";
 
 	        document.body.innerHTML += table;
 		}, function(error){
