@@ -1,13 +1,36 @@
 <!-- no idea what this does either -->
 <!DOCTYPE html>
 <head>
-	<!-- Links to the stylesheet in the root folder -->
+	<!-- Imports stylesheet -->
 	<link rel="stylesheet" href="css/stylesheet.css" />
-
+	
+	<!-- Imports JQuery, dependency for DataTables -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
 	<!-- welcome message for the page -->
 	<h1> Welcome to the MSMF </h1>
 </head>	
 <body>
-<!-- try to collect table fields from csv in root folder -->
+	 <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+        <script src="d3.min.js?v=3.2.8"></script>
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("data.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+        </script>
+
 </body>
 </html>
