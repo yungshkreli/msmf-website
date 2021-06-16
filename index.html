@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	
 	<!-- Imports JQuery, dependency for DataTables -->
-	<script src="CsvToTable.js"></script>	
+	<script src="js/CsvToTable.js"></script>	
 	
 	<!-- welcome message for the page -->
 	<h1> Welcome to the MSMF (with JS table) </h1>
@@ -13,7 +13,7 @@
 <body>
 	<script>
 		var csvtotable = new CsvToTable({
-			csvFile: 'data.csv' 
+			csvFile: 'inputs/eirik_holdings.csv' 
 		});
 		csvtotable.run();
 	</script>
