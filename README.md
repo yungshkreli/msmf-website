@@ -4,9 +4,9 @@ website repo for the msmf experience online
 ---
 MSMF-Website v.0.0.1  
 :heavy_check_mark:Create MSMF heading title  
-:x:Create YTD Header
-:x:  YTD Performace metric
-  :x:Current Portfolio value
+:x:Create YTD Header  
+:x:  YTD Performace metric  
+:x:  Current Portfolio value  
   :x:Stock portfolio
   :x:Fund portfolio
   :x:Crypto portfolio
