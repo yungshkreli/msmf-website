@@ -3,14 +3,9 @@ website repo for the msmf experience online
 
 ---
 MSMF-Website v.0.0.1  
-:heavy_check_mark: Create welcome title    
-:heavy_check_mark: Create table from csv input file  
-:x: Make table sortable by column
-
-
-:x:Create MSMF heading title
+:heavy_check_mark:Create MSMF heading title  
 :x:Create YTD Header
-  :x:YTD Performace metric
+:x:  YTD Performace metric
   :x:Current Portfolio value
   :x:Stock portfolio
   :x:Fund portfolio
