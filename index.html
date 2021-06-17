@@ -4,24 +4,13 @@
 	<!-- Imports stylesheet -->
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	
-	<!-- Imports JQuery, dependency for DataTables -->
-	<script src="js/CsvToTable.js"></script>	
-	
+
 	<!-- welcome message for the page -->
-	<h1> Welcome to the MSMF (with JS table) </h1>
+	<div class = "welcome banner">
+		<h1> Martin Shkreli Memorial Fund </h1>
+	</div>
 </head>	
 <body>
-	<div class= "eirik_hold">
-		<!-- header -->
-		<h2> Eirik's Holdings </h2>
-		<!-- table from csv file -->
-		<script>
-			var csvtotable = new CsvToTable({
-				csvFile: 'inputs/eirik_holdings.csv' 
-			});
-			csvtotable.run();
-		</script>
-	</div>
-	
+
 </body>
 </html>
